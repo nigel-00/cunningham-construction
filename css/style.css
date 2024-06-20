@@ -148,7 +148,9 @@ section{
 }
 
 header.sticky{
-	background: var(--bg-color);
+	background-image: linear-gradient( rgba(38,44,55,255), rgba(59,53,46,255)), url(../img/surface.jpg);         
+	background-size: cover;
+	background-position: center;
 	border-bottom: 1px solid #ffffff1a;
 	padding: 12px 12%;
 }
