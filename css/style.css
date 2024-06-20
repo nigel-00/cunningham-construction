@@ -74,7 +74,7 @@ section{
 	position: relative;
 	height: 100vh;
 	width: 100%;
-	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(../img/background.jpg);         
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(../img/house-background.jpg);         
 	background-size: cover;
 	background-position: center;
 	display: flex;
@@ -155,6 +155,9 @@ header.sticky{
 
 .about{
 	display: grid;
+	background-image: linear-gradient( rgba(38,44,55,255), rgba(59,53,46,255)), url(../img/surface.jpg);         
+	background-size: cover;
+	background-position: center;
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
 	gap: 1.5rem;
@@ -184,7 +187,9 @@ header.sticky{
 }
 
 .services{
-	background: var(--second-bg-color);
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(../img/background.jpg);         
+	background-size: cover;
+	background-position: center;
 }
 .main-text{
 	text-align: center;
@@ -207,6 +212,9 @@ header.sticky{
 }
 .box{
 	background: var(--bg-color);
+	background-image: linear-gradient( rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/surface.jpg);         
+	background-size: cover;
+	background-position: center;
 	padding: 35px 45px;
 	border-radius: 8px;
 	transition: all .45s ease;
@@ -218,7 +226,7 @@ header.sticky{
 .box h3{
 	font-size: 24px;
 	font-weight: 600;
-	color: var(--text-color);
+	color: var(--second-color);
 	margin-bottom: 15px;
 }
 .box p{
@@ -289,7 +297,7 @@ header.sticky{
 	margin-bottom: 15px;
 }
 .layer p{
-	color: var(--second-color);
+	color: var(--text-color);
 	font-size: 1rem;
 	line-height: 1.8;
 }
