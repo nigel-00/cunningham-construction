@@ -187,7 +187,7 @@ header.sticky{
 }
 
 .services{
-	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(../img/background.jpg);         
+	background-image: linear-gradient( rgba(38,44,55,255), rgba(59,53,46,255)), url(../img/background.jpg);         
 	background-size: cover;
 	background-position: center;
 }
@@ -211,7 +211,6 @@ header.sticky{
 	margin-top: 5rem;
 }
 .box{
-	background: var(--bg-color);
 	background-image: linear-gradient( rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/surface.jpg);         
 	background-size: cover;
 	background-position: center;
@@ -253,6 +252,11 @@ header.sticky{
 .box:hover{
 	transform: translateY(-8px);
 	cursor: pointer;
+}
+.portfolio{
+	background-image: linear-gradient( rgba(38,44,55,255), rgba(59,53,46,255)), url(../img/surface.jpg);         
+	background-size: cover;
+	background-position: center;
 }
 
 .portfolio-content{
@@ -321,7 +325,9 @@ header.sticky{
 }
 
 .contact{
-	background: var(--second-bg-color);
+	background-image: linear-gradient( rgba(38,44,55,255), rgba(59,53,46,255)), url(../img/surface.jpg);         
+	background-size: cover;
+	background-position: center;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
@@ -416,7 +422,9 @@ form textarea{
 	align-items: center;
 	justify-content: space-between;
 	gap: 2rem;
-	background: var(--bg-color);
+	background-image: linear-gradient( rgba(38,44,55,255), rgba(59,53,46,255)), url(../img/surface.jpg);         
+	background-size: cover;
+	background-position: center;
 }
 .last-text p{
 	color: var(--second-color);
