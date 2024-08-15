@@ -1,242 +1,213 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Cunningham Construction</title>
-	<!---custom css link---->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-
-	<link rel="stylesheet"
-  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-</head>
-<body>
-
-	<!----header design--->
-	<header>
-		<a href="#" class="logo"><img src="img/logo.png" class="logo"></a>
-	
-
-		<ul class="navlist">
-			<li><a href="#home" class="active">Home</a></li>
-			<li><a href="#about">About Us</a></li>
-			<li><a href="#portfolio">Services</a></li>
-			<li><a href="#projects">Projects</a></li>
-			<li><a href="#contact">Contact Us</a></li>
-		</ul>
-
-			<div class="bx bx-menu" id="menu-icon"></div>
-	</header>
-
-	<!----home section design--->
-	<section class="home" id="home">
-		<div class="home-text">
-			<h1>Your Vision</h1>
-			<h3>Our<span> Blueprint</span></h3>
-			<p>
-                We bring your dreams to life with expert painting, framing, roofing, redesign,
-                and barn construction.
-                <br>Trust us to build not just structures, but lasting impressions.
-            </p>
-			<div class="button">
-				<a href="#contact" class="btn">Free Quote</a>
-				<a href="#portfolio" class="btn2"><span><i class='bx bx-play' ></i></span>Projects</a>
-			</div>
-		</div>
-	</section>
-
-	<!----about section design--->
-	<section class="about" id="about">
-		<div class="about-img">
-			<img src="img/omar-pic.jpg">
-		</div>
-
-		<div class="about-text">
-			<h2>About <span>Us</span></h2>
-			<h4>Construction Expect</h4>
-			<p>
-				Welcome to Cunningham Construction, where quality craftsmanship meets integrity. We are Peyton and Omar Cunningham, 
-				the proud founders of this family-owned construction company. With a deep-rooted passion for building and a commitment
-				to excellence, we’ve turned our shared vision into a thriving business that delivers top-notch construction services.
-				Omar brings extensive experience in project management and construction, ensuring that every project is executed with 
-				precision and attention to detail. Peyton oversees client relations and business operations, ensuring that our clients’ 
-				needs are met with personalized care and professionalism.
-			</p>
-			<a href="#portfolio" class="btn">Learn More</a>
-		</div>
-	</section>
-
-	
-
-	<!----Our services section--->
-	<section class="portfolio" id="portfolio">
-		<div class="main-text">
-			<p>What I am Expert In</p>
-			<h2><span>Our</span>Services</h2>
-		</div>
-
-		<div class="portfolio-content">
-			<div class="row">
-				<img src="img/barn-construction.jpg">
-				<div class="layer">
-					<h5>Barn Construction</h5>
-					<p>
-						Our barn construction services cater to clients seeking bespoke, high-quality barns that meet their unique
-					</p>
-					<a href="#"><i class='bx bx-link-external'></i></a>
-				</div>
-			</div>
-
-			<div class="row">
-				<img src="img/home-reconstruction.jpg">
-				<div class="layer">
-					<h5>Home Reconstruction</h5>
-					<p>
-						Our home reconstruction services are tailored to help you rebuild and restore your home after a disaster.
-					</p>
-					<a href="#"><i class='bx bx-link-external'></i></a>
-				</div>
-			</div>
-
-			<div class="row">
-				<img src="img/painting.jpg">
-				<div class="layer">
-					<h5>Painting</h5>
-					<p>
-						Our painting services cater to clients seeking high-quality, professional painting.
-					</p>
-					<a href="#"><i class='bx bx-link-external'></i></a>
-				</div>
-			</div>
-
-			<div class="row">
-				<img src="img/framing.jpg">
-				<div class="layer">
-					<h5>Framing</h5>
-					<p>
-						Our framing services cater to clients seeking high-quality, professional framing.
-					<a href="#"><i class='bx bx-link-external'></i></a>
-				</div>
-			</div>
-
-			<div class="row">
-				<img src="img/roofing.jpg">
-				<div class="layer">
-					<h5>Roofing</h5>
-					<p>
-						Our roofing services cater to clients seeking high-quality, professional roofing.
-					</p>
-					<a href="#"><i class='bx bx-link-external'></i></a>
-				</div>
-			</div>
-
-
-		</div>
-	</section>
-
-
-	<!----Latest projects section--->
-	
-	<section class="projects" id="projects">
-
-	<div class="main-text">
-			<p>Our</p>
-			<h2><span>Latest</span>Projects</h2>
-	</div>
-
-	<div class="slideshow-container">
-
-		<!-- Full-width images with number and caption text -->
-		<div class="mySlides fade">
-		  <div class="numbertext">1 / 3</div>
-		  <img src="img/house-background.jpg" style="width:100%">
-		  <div class="ptext">Caption Text</div>
-		</div>
-	  
-		<div class="mySlides fade">
-		  <div class="numbertext">2 / 3</div>
-		  <img src="img/barn-construction.jpg"  style="width:100%">
-		  <div class="ptext">Caption Two</div>
-		</div>
-	  
-		<div class="mySlides fade">
-		  <div class="numbertext">3 / 3</div>
-		  <img src="img/house-background.jpg" style="width:100%">
-		  <div class="ptext">Caption Three</div>
-		</div>
-	  
-		<!-- Next and previous buttons -->
-		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-		<a class="next" onclick="plusSlides(1)">&#10095;</a>
-	  </div>
-	  <br>
-	  
-	  <!-- The dots/circles -->
-	  <div style="text-align:center">
-		<span class="dot" onclick="currentSlide(1)"></span>
-		<span class="dot" onclick="currentSlide(2)"></span>
-		<span class="dot" onclick="currentSlide(3)"></span>
-	  </div>
-
-	</section>
-	
-
-
-
-
-
-
-
-
-	<!----contact section design--->
-	<section class="contact" id="contact">
-		<div class="contact-text">
-			<h2>Contact <span>Us!</span></h2>
-			<h4>If You Have Any Project In Mind.</h4>
-			<p> We specialize in roofing, framing, painting, remodeling, dry wall, and many other projects offering 
-				comprehensive services from concept to completion. Our mission is to build spaces that not only meet but exceed your expectations,
-				all while staying on time and within budget. We believe in the power of collaboration, transparency, and hard work.</p>
-			<div class="list">
-				<li><a href="#">+1 (208)-948-7108</a></li>
-				<li><a href="#">cunninghamconstruction@gmail.com</a></li>
-			</div>
-
-			<div class="contact-icons">
-				<a href="#"><i class='bx bxl-facebook'></i></a>
-				<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
-				<a href="#"><i class='bx bxl-youtube' ></i></a>
-			</div>
-		</div>
-
-		<div class="contact-form">
-			<form action="">
-				<input type="name" placeholder="Your Name" required>
-				<input type="email" placeholder="Your Email Address" required>
-				<input type="" placeholder="Your Mobile Number" required>
-				<textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
-				<input type="submit" value="Send Message" class="submit" required>
-			</form>
-		</div>
-	</section>
-
-	<!----end section design--->
-	<section class="end">
-		<div class="last-text">
-		  <p>Copyright © 2024 Cunningham Construction All Rights Reserved.</p>
-	  </div>
-
-	  <div class="back-to-top">
-		  <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
-	  </div>
-	</section>
-	
-	<!---custom css link---->
-	<script type="text/javascript" src="js/script.js"></script>
-
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cunningham Construction</title>
+    <!---custom css link---->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!----header design--->
+    <header>
+      <a href="#" class="logo">
+        <img src="img/logo.png" class="logo">
+      </a>
+      <ul class="navlist">
+        <li>
+          <a href="#home" class="active">Home</a>
+        </li>
+        <li>
+          <a href="#about">About Us</a>
+        </li>
+        <li>
+          <a href="#portfolio">Services</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact Us</a>
+        </li>
+      </ul>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <!----home section design--->
+    <section class="home" id="home">
+      <div class="home-text">
+        <h1>Your Vision</h1>
+        <h3>Our <span> Blueprint</span>
+        </h3>
+        <p> We bring your dreams to life with expert painting, framing, roofing, redesign, and barn construction. <br>Trust us to build not just structures, but lasting impressions. </p>
+        <div class="button">
+          <a href="#contact" class="btn">Free Quote</a>
+          <a href="#projects" class="btn2">
+            <span>
+              <i class='bx bx-play'></i>
+            </span>Projects </a>
+        </div>
+      </div>
+    </section>
+    <!----about section design--->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img/omar-pic.jpg">
+      </div>
+      <div class="about-text">
+        <h2>About <span>Us</span>
+        </h2>
+        <h4>Construction Expect</h4>
+        <p> Welcome to Cunningham Construction, where quality craftsmanship meets integrity. We are Peyton and Omar Cunningham, the proud founders of this family-owned construction company. With a deep-rooted passion for building and a commitment to excellence, we’ve turned our shared vision into a thriving business that delivers top-notch construction services. Omar brings extensive experience in project management and construction, ensuring that every project is executed with precision and attention to detail. Peyton oversees client relations and business operations, ensuring that our clients’ needs are met with personalized care and professionalism. </p>
+        <a href="#portfolio" class="btn">Learn More</a>
+      </div>
+    </section>
+    <!----Our services section--->
+    <section class="portfolio" id="portfolio">
+      <div class="main-text">
+        <p>What We're Expert In</p>
+        <h2>
+          <span>Our</span>Services
+        </h2>
+      </div>
+      <div class="portfolio-content">
+        <div class="row">
+          <img src="img/barn-construction.jpg">
+          <div class="layer">
+            <h5>Barn Construction</h5>
+            <p> Our barn construction services cater to clients seeking bespoke, high-quality barns that meet their unique </p>
+            <a href="#contact">
+              <i class='bx bx-link-external'></i>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <img src="img/home-reconstruction.jpg">
+          <div class="layer">
+            <h5>Home Reconstruction</h5>
+            <p> Our home reconstruction services are tailored to help you rebuild and restore your home after a disaster. </p>
+            <a href="#contact">
+              <i class='bx bx-link-external'></i>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <img src="img/painting.jpg">
+          <div class="layer">
+            <h5>Painting</h5>
+            <p> Our painting services cater to clients seeking high-quality, professional painting. </p>
+            <a href="#contact">
+              <i class='bx bx-link-external'></i>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <img src="img/framing.jpg">
+          <div class="layer">
+            <h5>Framing</h5>
+            <p> Our framing services cater to clients seeking high-quality, professional framing. <a href="#contact">
+                <i class='bx bx-link-external'></i>
+              </a>
+          </div>
+        </div>
+        <div class="row">
+          <img src="img/roofing.jpg">
+          <div class="layer">
+            <h5>Roofing</h5>
+            <p> Our roofing services cater to clients seeking high-quality, professional roofing. </p>
+            <a href="#contact">
+              <i class='bx bx-link-external'></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----Latest projects section--->
+    <section class="projects" id="projects">
+      <div class="main-text">
+        <p>Our</p>
+        <h2>
+          <span>Latest</span>Projects
+        </h2>
+      </div>
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <img src="img/project_1.jpg">
+          <div class="ptext">Home Remodelling/Framing</div>
+        </div>
+        <div class="mySlides fade">
+          <img src="img/project_2.jpg">
+          <div class="ptext">Roofing</div>
+        </div>
+        <div class="mySlides fade">
+          <img src="img/project_3.jpg">
+          <div class="ptext">Painting</div>
+        </div>
+        <div class="mySlides fade">
+          <img src="img/project_4.jpg">
+          <div class="ptext">Painting</div>
+        </div>
+        <div class="mySlides fade">
+          <img src="img/project_5.jpg">
+          <div class="ptext">Barn Construction</div>
+        </div>
+        <div class="mySlides fade">
+          <img src="img/project_6.jpg">
+          <div class="ptext">Framing</div>
+        </div>
+      </div>
+      <br>
+    </section>
+    <!----contact section design--->
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>Contact <span>Us!</span>
+        </h2>
+        <h4>If You Have Any Project In Mind.</h4>
+        <p> We specialize in roofing, framing, painting, remodeling, dry wall, and many other projects offering comprehensive services from concept to completion. Our mission is to build spaces that not only meet but exceed your expectations, all while staying on time and within budget. We believe in the power of collaboration, transparency, and hard work.</p>
+        <div class="list">
+          <li>
+            <a href="#">+1 (208)-948-7108</a>
+          </li>
+          <li>
+            <a href="#">cunninghamconstruction@gmail.com</a>
+          </li>
+        </div>
+        <div class="contact-icons">
+          <a href="#">
+            <i class='bx bxl-facebook'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-instagram-alt'></i>
+          </a>
+        </div>
+      </div>
+      <div class="contact-form">
+        <form action="">
+          <input type="name" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email Address" required>
+          <input type="" placeholder="Your Mobile Number" required>
+          <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
+          <input type="submit" value="Send Message" class="submit" required>
+        </form>
+      </div>
+    </section>
+    <!----end section design--->
+    <section class="end">
+      <div class="last-text">
+        <p>Copyright © 2024 Cunningham Construction All Rights Reserved.</p>
+      </div>
+      <div class="back-to-top">
+        <a href="#home">
+          <i class='bx bx-up-arrow-alt'></i>
+        </a>
+      </div>
+    </section>
+    <!---custom css link---->
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
 </html>
